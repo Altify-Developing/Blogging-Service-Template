@@ -12,10 +12,17 @@ $brandName = $obj->brand;
 <link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
 <style>
 .error {color: #FF0000;}
+card {
+	float:right;
+	margin-right:150px;
+	margin-top:10px;
+	padding:3px;
+	background-image: linear-gradient(black, green, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, green, blue, black);
+	}
 </style>
 </head>
 <body>
-<card style="float: right; margin-right: 150px; margin-top: 10px; padding: 3px; background-image: linear-gradient(black, green, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, red, green, blue, black);" onclick="window.location.replace(origin+'/blogs.php');">Visit Other Blogs</card>
+<card onclick="window.location.replace(origin+'/blogs.php');">Visit Other Blogs</card>
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $websiteErr = $titleErr = "";
